@@ -1,0 +1,34 @@
+{
+  "episode_id": "ep_20261125_001",
+  "total_frames": 300,
+  "fps": 30,
+  "cameras": {
+    "head_rgb": {"recorded_frames": 300, "dropped_frames": 0, "low_quality_signal": false},
+    "left_wrist_rgb": {"recorded_frames": 300, "dropped_frames": 0, "low_quality_signal": false},
+    "right_wrist_rgb": {"recorded_frames": 300, "dropped_frames": 0, "low_quality_signal": false}
+  },
+  "robot_telemetry": {
+    "battery_percent": 78,
+    "hardware_error": null
+  },
+  "annotations": [
+    {
+      "segment_id": 1,
+      "start_frame": 0,
+      "end_frame": 140,
+      "action_type": "pick",
+      "natural_language_label": "Gắp chai nhựa màu xanh từ trên bàn làm việc lên bằng tay phải",
+      "is_ai_prelabel": true,
+      "human_verified": true
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 141,
+      "end_frame": 299,
+      "action_type": "place",
+      "natural_language_label": "Đặt chai nhựa màu xanh vào khay phân loại bên trái",
+      "is_ai_prelabel": false,
+      "human_verified": true
+    }
+  ]
+}
